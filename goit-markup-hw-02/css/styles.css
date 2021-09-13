@@ -1,0 +1,103 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  font-family: robotto;
+  color: #000000;
+}
+
+/* Site nav */
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.site-nav .link {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.site-nav .link {
+  font-size: 14px;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+.contact .link {
+  font-size: 14px;
+  font-weight: 500;
+}
+.contact .link {
+  color: rgb(160, 150, 150);
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--title-text-color);
+}
+
+.hero-text .text {
+  font-size: 44px;
+  font-weight: 900;
+}
+.hero-text .button {
+  background-color: #2196f3;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.control .list:hover,
+.control .list:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.project .title {
+  font-size: 18px;
+  color: #212121;
+  font-weight: 700;
+}
+
+.project .desk {
+  font-size: 16px;
+  color: #757575;
+  font-weight: 400;
+}
+
+.features .title {
+  font-size: 14px;
+}
+
+.features .text {
+  font-size: 14px;
+  color: #757575;
+}
+
+.subject {
+  font-size: 42px;
+  color: #212121;
+  font-weight: 700;
+}
+
+.caption {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.items .subject {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.items .desc {
+  font-size: 16px;
+  color: #757575;
+  font-weight: 400;
+}
