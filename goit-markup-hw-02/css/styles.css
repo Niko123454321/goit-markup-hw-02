@@ -1,17 +1,19 @@
 :root {
-  --primary-text-color: rgba(0, 0, 0, 0.8);
-  --title-text-color: #000000;
-  --accent-color: #18a0fb;
+  --primary-text-color: #212121
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
   --primary-white-color: #ffffff;
 }
 
 body {
   font-family: robotto;
   color: #000000;
+  font-size: 16px;
 }
 
 /* Site nav */
 .logo {
+  
   font-size: 26px;
   font-weight: 700;
 }
@@ -42,8 +44,10 @@ body {
 }
 
 .hero-text .text {
+  color: #FFFFFF;
   font-size: 44px;
   font-weight: 900;
+  background-color: #2F303A;
 }
 .hero-text .button {
   background-color: #2196f3;
@@ -71,6 +75,11 @@ body {
   font-weight: 400;
 }
 
+.features{
+  list-style: none;
+  background-color: #E5E5E5;
+}
+
 .features .title {
   font-size: 14px;
 }
@@ -81,16 +90,29 @@ body {
 }
 
 .subject {
+  
   font-size: 42px;
   color: #212121;
   font-weight: 700;
 }
 
-.caption {
+.list{
+  list-style: none;
+}
+
+.box{
+    background-color: #F5F4FA;
+    list-style: none;
+}
+.box-caption {
+
   font-size: 42px;
   font-weight: 700;
 }
 
+.items{
+  list-style: none;
+}
 .items .subject {
   font-size: 16px;
   font-weight: 500;
