@@ -6,9 +6,10 @@
 }
 
 body {
-  font-family: robotto;
+  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   color: #000000;
   font-size: 16px;
+  font-weight: 400;
 }
 
 /* Site nav */
@@ -55,12 +56,14 @@ body {
   font-weight: 700;
 }
 
-.control .list:hover,
-.control .list:focus {
+
+.control .button:hover,
+.control .button:focus {
   color: #ffffff;
   background-color: #2196f3;
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .project .title {
@@ -121,5 +124,5 @@ body {
 .items .desc {
   font-size: 16px;
   color: #757575;
-  font-weight: 400;
 }
+
