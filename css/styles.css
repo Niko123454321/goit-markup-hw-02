@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #000000;
   font-size: 16px;
   font-weight: 400;
@@ -17,31 +17,40 @@ body {
 font-family: raleway;
   font-size: 26px;
   font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+}
+.logo .accent{
+color: #2196F3;;
+
 }
 
 .site-nav .link {
-  color: var(--accent-color);
+  color: var(--title-text-color);
   font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
 }
 
-.site-nav .link {
-  font-size: 14px;
-}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
+
+
 
 .contact .link {
   font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
 }
 .contact .link {
   color: rgb(160, 150, 150);
 }
 .contact .link:hover,
 .contact .link:focus {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 .hero-text .text {
@@ -49,7 +58,9 @@ font-family: raleway;
   font-size: 44px;
   font-weight: 900;
   background-color: #2F303A;
+  text-align: center;
 }
+
 .hero-text .button {
   background-color: #2196f3;
   font-size: 16px;
