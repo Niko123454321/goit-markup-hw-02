@@ -53,6 +53,8 @@ color: #2196F3;;
   color: var(--accent-color);
 }
 
+
+
 .hero-text .text {
   color: #FFFFFF;
   font-size: 44px;
@@ -92,7 +94,6 @@ color: #2196F3;;
 
 .features{
   list-style: none;
-  background-color: #E5E5E5;
 }
 
 .features .title {
@@ -138,3 +139,31 @@ color: #2196F3;;
   color: #757575;
 }
 
+.footer{
+width: 1600px;
+height: 6.34%;
+background: #2F303A;
+}
+
+.footer-contact{
+font-size: 14px;
+line-height: 171%;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer-contact .link:hover,
+.footer-contact .link:focus {
+  color: var(--accent-color);
+}
+
+.footer-contact .link{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact .link-accent{
+  color: #FFFFFF;
+}
