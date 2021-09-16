@@ -1,9 +1,8 @@
-:root { 
-  --primary-text-color: #757575
+:root {
+  --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-
 }
 
 body {
@@ -11,71 +10,87 @@ body {
   color: var(--title-text-color);
   font-size: 16px;
   font-weight: 400;
+  line-height: 120%;
+  list-style: none;
+  letter-spacing: 0.03em;
 }
 
 /* Site nav */
 .logo {
-font-family: raleway;
+  font-family: raleway;
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
   color: var(--title-text-color);
 }
-.logo .accent{
-color: var(--title-text-color);;
-
+.logo .accent {
+  color: var(--accent-color);
+}
+.contact,
+.site-nav,
+.control,
+.project {
+  list-style: none;
 }
 
+.site-nav {
+  line-height: 110%;
+  letter-spacing: 0.02em;
+}
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-
-
-.contact .link {
   font-size: 14px;
-  font-weight: 500;
   text-decoration: none;
 }
-.contact .link {
-  color: rgb(160, 150, 150);
-}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
 .contact .link:hover,
 .contact .link:focus {
   color: var(--accent-color);
 }
 
+.contact .link {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+}
+.contact .link {
+  color: rgb(160, 150, 150);
+}
 
+.hero-text {
+  background-color: #2f303a;
+  letter-spacing: 0.06em;
+}
 
 .hero-text .text {
   color: var(--primary-white-color);
   font-size: 44px;
   font-weight: 900;
-  background-color: #2F303A;
   text-align: center;
+  line-height: 136%;
 }
 
 .hero-text .button {
-  color: var(--title-text-color);
-  background-color: var(--title-text-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
   font-size: 16px;
   font-weight: 700;
+  line-height: 190%;
 }
 
+.control {
+  line-height: 160%;
+}
 
 .control .button:hover,
 .control .button:focus {
-  color: var(--title-text-color);
-  background-color: var(--title-text-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
@@ -85,75 +100,88 @@ color: var(--title-text-color);;
   font-size: 18px;
   color: #212121;
   font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 0.06em;
 }
 
 .project .desk {
   font-size: 16px;
   color: var(--primary-text-color);
   font-weight: 400;
+  line-height: 190%;
 }
 
-.features{
+.features {
   list-style: none;
 }
 
 .features .title {
   font-size: 14px;
+  line-height: 110%;
 }
 
 .features .text {
   font-size: 14px;
+  line-height: 200%;
   color: var(--primary-text-color);
 }
 
 .subject {
-  
   font-size: 42px;
   color: #212121;
   font-weight: 700;
 }
 
-.list{
+.list {
   list-style: none;
 }
 
-.box{
-    background-color: #F5F4FA;
-    list-style: none;
+.box {
+  background-color: #f5f4fa;
+  list-style: none;
 }
 .box-caption {
-
   font-size: 42px;
   font-weight: 700;
 }
 
-.items{
+.items {
   list-style: none;
 }
 .items .subject {
+  text-align: center;
   font-size: 16px;
   font-weight: 500;
 }
 
 .items .desc {
+  text-align: center;
   font-size: 16px;
   color: var(--primary-text-color);
 }
 
-.footer{
-width: 1600px;
-height: 6.34%;
-background: #2F303A;
+.footer {
+  height: 6.34%;
+  background: #2f303a;
 }
 
-.footer-contact{
-font-size: 14px;
-line-height: 171%;
-/* or 171% */
+.footer-logo {
+  text-decoration: none;
+  color: var(--primary-white-color);
+  font-size: 26px;
+}
+.footer-logo .accent {
+  color: var(--accent-color);
+}
 
-letter-spacing: 0.03em;
-
-color: var(--title-text-color);
+.footer-contact {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 171%;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  font-style: normal;
 }
 
 .footer-contact .link:hover,
@@ -161,10 +189,14 @@ color: var(--title-text-color);
   color: var(--accent-color);
 }
 
-.footer-contact .link{
+.footer-contact .link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contact .link-accent{
-  color: var(--title-text-color);
+.footer-contact .link-accent {
+  color: var(--primary-white-color);
+}
+
+.address {
+  text-decoration: none;
 }
