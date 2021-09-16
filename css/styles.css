@@ -44,7 +44,8 @@ body {
   text-decoration: none;
 }
 
-.site-nav .link:active .site-nav .link:hover,
+.site-nav .link:active,
+.site-nav .link:hover,
 .site-nav .link:focus,
 .contact .link:hover,
 .contact .link:focus {
