@@ -191,13 +191,13 @@ body {
 }
 
 .footer-contact .link {
+  text-decoration: none;
+  list-style: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contact .link-accent {
-  color: var(--primary-white-color);
-}
-
-.address {
   text-decoration: none;
+  list-style: none;
+  color: var(--primary-white-color);
 }
