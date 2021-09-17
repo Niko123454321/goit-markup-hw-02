@@ -48,7 +48,7 @@ body {
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -94,7 +94,7 @@ body {
 }
 
 .control .button.current {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 .control .button {
   font-size: 16px;
