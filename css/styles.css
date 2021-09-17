@@ -48,7 +48,7 @@ body {
 }
 
 .site-nav .link.current {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 .site-nav .link:hover,
