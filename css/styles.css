@@ -1,17 +1,20 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
+  --hiro-text-buck-color: #2f303a;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --footer-contact-color: rgb(160, 150, 150);
+  --footer-buck-color: #2f303a;
+  --box-buck-color: #f5f4fa;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--title-text-color);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 120%;
-  list-style: none;
   letter-spacing: 0.03em;
 }
 
@@ -26,6 +29,7 @@ body {
 .logo .accent {
   color: var(--accent-color);
 }
+
 .contact,
 .site-nav,
 .control,
@@ -40,11 +44,13 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   text-decoration: none;
 }
 
-.site-nav .link:active,
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contact .link:hover,
@@ -53,18 +59,17 @@ body {
 }
 
 .contact .link {
-  font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   line-height: 110%;
   letter-spacing: 0.02em;
 }
 .contact .link {
-  color: rgb(160, 150, 150);
+  color: var(--footer-contact-color);
 }
 
 .hero-text {
-  background-color: #2f303a;
+  background-color: var(--hiro-text-buck-color);
   letter-spacing: 0.06em;
 }
 
@@ -88,18 +93,24 @@ body {
   line-height: 160%;
 }
 
-.control .button:hover,
-.control .button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+.control .button.current {
+  color: var(--accent-color);
+}
+.control .button {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
 }
 
+.control .button:hover,
+.control .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .project .title {
   font-size: 18px;
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 700;
   line-height: 200%;
   letter-spacing: 0.06em;
@@ -117,19 +128,17 @@ body {
 }
 
 .features .title {
-  font-size: 14px;
   line-height: 110%;
 }
 
 .features .text {
-  font-size: 14px;
   line-height: 200%;
   color: var(--primary-text-color);
 }
 
 .subject {
   font-size: 42px;
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 700;
 }
 
@@ -138,7 +147,7 @@ body {
 }
 
 .box {
-  background-color: #f5f4fa;
+  background-color: var(--box-buck-color);
   list-style: none;
 }
 .box-caption {
@@ -163,7 +172,7 @@ body {
 
 .footer {
   height: 6.34%;
-  background: #2f303a;
+  background: var(--footer-buck-color);
 }
 
 .footer-logo {
@@ -177,7 +186,6 @@ body {
 
 .footer-contact {
   text-decoration: none;
-  font-size: 14px;
   line-height: 171%;
   /* or 171% */
   letter-spacing: 0.03em;
@@ -193,7 +201,7 @@ body {
 .footer-contact .link {
   text-decoration: none;
   list-style: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contact-color);
 }
 
 .footer-contact .link-accent {
