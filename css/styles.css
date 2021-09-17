@@ -94,8 +94,10 @@ body {
 }
 
 .control .button.current {
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
+
 .control .button {
   font-size: 16px;
   font-weight: 500;
